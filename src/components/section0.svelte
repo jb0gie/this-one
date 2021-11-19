@@ -1,12 +1,12 @@
 <script>
-	let src = 'avi.png';
-	let title = 'ｂ０ｇｉｅ';
-	let subTitle = '𝐢 𝐫 𝐭𝐞𝐜𝐡🧞𝐬𝐡𝐚𝐦𝐚𝐧。消費者 𝐧𝐢𝐜𝐞𝐬𝐭𝟎𝐧𝐍𝐞𝐭';
-	let b0gieNoun = '𝐛𝟎𝐠𝐢𝐞 𝙣𝙤𝙪𝙣 /ˈbəʊ.ɡi/ ';
-	let b0gieNounDesc = 'something that causes fear in many people, often without reason.';
-	let gitLenkTxt = 'oh look a 🐩ly maintained😷 github';
-	let cordLenkTxt = 'oh look An🎙EntryPoint';
-	let outro = 'i r simple, minimalistic, and thinker. I like making stuff.';
+	let src = 'avi.png'
+	let title = 'ｂ０ｇｉｅ'
+	let subTitle = '𝐭𝐞𝐜𝐡🧞𝐬𝐡𝐚𝐦𝐚𝐧 | 0️⃣8️⃣消費者 | 𝐧𝐢𝐜𝐞𝐬𝐭𝟎𝐧𝐍𝐞𝐭'
+	let b0gieNoun = '𝐛𝟎𝐠𝐢𝐞 𝙣𝙤𝙪𝙣 /ˈbəʊ.ɡi/ '
+	let b0gieNounDesc = 'something that causes fear in many people, often without reason.'
+	let gitLenkTxt = 'oh look a 🐩ly maintained😷 github'
+	let cordLenkTxt = 'oh look An🎙EntryPoint'
+	let outro = '𝐢 𝐫 simple, minimalistic, and thinker. I like making stuff.'
 </script>
 
 <div
@@ -22,7 +22,7 @@
 			height="512"
 		/>
 		<div class="pt-6 sm:p-8 sm:text-left space-y-4">
-			<h1 class="text-lg font-semibold">𝐢 𝐫 {title}</h1>
+			<h1 class="text-center text-lg font-semibold">𝐢 𝐫⋰{title}</h1>
 			<h2>{b0gieNoun}<br /><code>{b0gieNounDesc}</code></h2>
 			<div class="divide-y divide-gray-200">
 				<div />
