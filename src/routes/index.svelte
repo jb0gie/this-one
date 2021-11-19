@@ -5,9 +5,11 @@
     import Section1 from "../components/section1.svelte";
     import Section2 from "../components/section2.svelte";
     import Section3 from "../components/section3.svelte";
+    import Quote0 from "../components/quote0.svelte";
 </script>
 <svelte:head><title>👋🏿🧞</title></svelte:head>
-<Section0 /><br> <br>
-<Section1 /><br> <br>
-<Section2 /><br> <br>
+<Section0 /><br><br>
+<Section1 /><br><br>
+<Quote0 /><br><br>
+<Section2 /><br><br>
 <Section3 />

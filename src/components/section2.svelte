@@ -1,32 +1,30 @@
 <script>
-    export let cardHead = '';
+	let title1 = 'Vision';
+	let title2 = 'Accomplishments';
+	let paraVision = 'Our world is augmenting itself with new technologies. We are constantly learning and evolving. We are constantly evolving. Mass adoption is coming.';
 </script>
 
-<div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20 bg-clip-padding bg-opacity-60 border border-gray-200" style="backdrop-filter: blur(20px);">
-    <div class="max-w-md mx-auto">
-        <div>
-        {cardHead}
-        <!-- <img src="" class="h-7 sm:h-8" /> -->
-        </div>
-        <div class="divide-y divide-gray-200">
-            <div class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
-                <p>cardSubHead:</p>
-                <ul class="list-disc space-y-2">
-                    <li class="flex items-start">
-                        <span class="h-6 flex items-center sm:h-7">🎉</span>
-                        <p class="ml-2">
-                            normal txt den 
-                            <code class="text-sm font-bold text-gray-900">txt with monoFX den</code> 
-                            normal txt 
-                        </p>
-                    </li>
-                </ul>
-                <p>likkle bit of info round up woot </p>
-            </div>
-            <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
-                <p>lead onto next card</p>
-                <p><a href="https://metagame.wtf" class="text-purple-600 hover:text-purple-700">follow d &rarr; 🐙</a></p>
-            </div>
-        </div>
-    </div>
+<div
+	class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20 bg-clip-padding bg-opacity-60 border border-gray-200"
+	style="backdrop-filter: blur(20px);"
+>
+	<div class="max-w-md mx-auto">
+		<div class="text-center flex flex-row ...">
+			<div class="flex-inital text-5xl">👩🏽‍🚀</div>
+			<h1 class="flex-auto text-5xl font-bold text-center">{title1}</h1>
+			<div class="flex-inital text-5xl">👩🏽‍🚀</div>
+		</div>
+		<div class="divide-y divide-gray-200">
+			<div class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
+				<p>{paraVision} 🎉</p>
+			</div>
+			<div class="pt-6 text-base leading-6 sm:text-lg sm:leading-7">
+				<p>{para2} 🦾</p>
+				<br />
+				<p>{para3} 😅</p>
+				<br />
+				<p>{para4} 🕺🏾</p>
+			</div>
+		</div>
+	</div>
 </div>
