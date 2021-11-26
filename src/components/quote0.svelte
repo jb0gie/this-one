@@ -8,7 +8,7 @@
 	style="backdrop-filter: blur(20px);"
 >
 	<div class="max-w-md mx-auto">
-		<blockquote class="font-bold">
+		<blockquote class="justify-center font-bold">
 			<p>{quote}<br />{quoteAuthor}</p>
 		</blockquote>
 	</div>

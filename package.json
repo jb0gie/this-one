@@ -24,5 +24,8 @@
 		"svelthree": "^0.119.0-5",
 		"tailwindcss": "^2.2.16"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"canvas-confetti": "^1.4.0"
+	}
 }
