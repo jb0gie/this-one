@@ -106,11 +106,13 @@
 			<div class="flex-inital text-5xl">🌮</div>
 			<h1 class="flex-auto text-5xl font-bold text-center">{titleSection}</h1>
 			<div class="flex-inital text-5xl">🌮</div>
+			<br />
 		</div>
 		<div class="divide-y divide-gray-200">
 			<div />
 			<br />
 			<div class="text-center">
+				<br />
 				<div class="justify-center flex flex-row">
 					<div class="flex-inital text-3xl">👨‍🎓</div>
 					<h4 class="flex-shrink text-3xl font-bold text-center">{titleScholar}</h4>
@@ -121,13 +123,13 @@
 					{#each scholar as { stat, desc }}
 						<li>
 							<div class="flex">
-								<div class="flex-grow w-8 ">
+								<div class="flex-grow w-8 h-4">
 									<p class="float-right text-center font-medium text-gray-900">{stat}</p>
 								</div>
-								<div class="flex-shrink w-24 ">
+								<div class="flex-shrink w-24 h-16">
 									<h3 class="text-2xl text-center text-gray-500">📚</h3>
 								</div>
-								<div class="flex-grow w-8 ">
+								<div class="flex-grow w-8 h-4">
 									<p class="float-left  text-center text-lg leading-6 text-gray-500">{desc}</p>
 								</div>
 							</div>

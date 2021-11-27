@@ -1,6 +1,12 @@
 <script>
-	let quote = 'The best way out is always through';
-	let quoteAuthor = '--Robert Frost';
+	let randmQuote;
+	let randmAuthor;
+	fetch('https://api.quotable.io/random').then((resp) => resp.json()).then((data) => {
+		randmQuote = data.content;
+		randmAuthor = data.author;
+		console.log(randmQuote);
+		console.log(randmAuthor);
+	});
 </script>
 
 <div
@@ -9,7 +15,7 @@
 >
 	<div class="max-w-md mx-auto">
 		<blockquote class="justify-center font-bold">
-			<p>{quote}<br />{quoteAuthor}</p>
+			<p>{randmQuote}<br />{randmAuthor}</p>
 		</blockquote>
 	</div>
 </div>
