@@ -5,7 +5,7 @@
 
 </script>
 
-<div class="p-auto max-w-3xl mx-auto">
+<div class="p-auto max-w-2xl mx-auto">
 	<Nav />
 	<Fetti />
 	<br />

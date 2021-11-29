@@ -122,14 +122,14 @@
 				<ul>
 					{#each scholar as { stat, desc }}
 						<li>
-							<div class="flex">
-								<div class="flex-grow w-8 h-4">
+							<div class="flex content-evenly">
+								<div class="flex-grow w-8 h-16">
 									<p class="float-right text-center font-medium text-gray-900">{stat}</p>
 								</div>
-								<div class="flex-shrink w-24 h-16">
+								<div class="flex-0 w-24 h-16">
 									<h3 class="text-2xl text-center text-gray-500">📚</h3>
 								</div>
-								<div class="flex-grow w-8 h-4">
+								<div class="flex-grow w-8 h-16">
 									<p class="float-left  text-center text-lg leading-6 text-gray-500">{desc}</p>
 								</div>
 							</div>
@@ -155,15 +155,15 @@
 					{#each cook as { stat, desc }}
 						<li>
 							<div class="flex">
-								<div class="flex-grow w-8 ">
+								<div class="flex-grow w-8 h-16">
 									<p class="float-right text-center font-medium text-gray-900">
 										{stat}
 									</p>
 								</div>
-								<div class="flex-shrink w-24 ">
+								<div class="flex-shrink w-24 h-16">
 									<h3 class="text-2xl text-center text-gray-500">🍳</h3>
 								</div>
-								<div class="flex-grow w-8 ">
+								<div class="flex-grow w-8 h-16">
 									<p class="float-left text-center text-lg leading-6 text-gray-500">{desc}</p>
 								</div>
 							</div>
@@ -188,13 +188,13 @@
 					{#each barkeep as { stat, desc }}
 						<li>
 							<div class="flex">
-								<div class="flex-grow w-8">
+								<div class="flex-grow w-8 h-16">
 									<p class="float-right text-center font-medium text-gray-900">{stat}</p>
 								</div>
-								<div class="flex-shrink w-24">
+								<div class="flex-shrink w-24 h-16">
 									<h3 class="text-2xl text-center text-gray-500">🍹</h3>
 								</div>
-								<div class="flex-grow w-8">
+								<div class="flex-grow w-8 h-16">
 									<p class="float-left text-center text-lg leading-6 text-gray-500">{desc}</p>
 								</div>
 							</div>
@@ -220,13 +220,13 @@
 					{#each waiter as { stat, desc }}
 						<li>
 							<div class="flex">
-								<div class="flex-grow w-8 ">
+								<div class="flex-grow w-8 h-16">
 									<p class="float-right text-center font-medium text-gray-900">{stat}</p>
 								</div>
-								<div class="flex-shrink w-24 ">
+								<div class="flex-shrink w-24 h-16">
 									<h3 class="text-2xl text-center text-gray-500">🥗</h3>
 								</div>
-								<div class="flex-grow w-8 ">
+								<div class="flex-grow w-8 h-16">
 									<p class="float-left text-center text-lg leading-6 text-gray-500">{desc}</p>
 								</div>
 							</div>
@@ -252,15 +252,15 @@
 					{#each bogie as { stat, desc }}
 						<li>
 							<div class="flex">
-								<div class="flex-grow w-8 ">
+								<div class="flex-grow w-8 h-16">
 									<p class="float-right text-center font-medium text-gray-900">
 										{stat}
 									</p>
 								</div>
-								<div class="flex-shrink w-24 ">
+								<div class="flex-shrink w-24 h-16">
 									<h3 class="text-3xl text-center text-gray-500">📿</h3>
 								</div>
-								<div class="flex-grow w-8 ">
+								<div class="flex-grow w-8 h-16">
 									<p class="float-left  text-center text-lg leading-6 text-gray-500">{desc}</p>
 								</div>
 							</div>
@@ -283,7 +283,7 @@
 					<br />
 				</div>
 				<p>{gratitude}♥{trulyGrateful}</p>
-				<p class="text-purple-400"><a href="https://linktr.ee/jb0gie">{cry4Halp}</a></p>
+				<p class="text-purple-700"><a href="https://linktr.ee/jb0gie">{cry4Halp}</a></p>
 			</div>
 		</div>
 	</div>

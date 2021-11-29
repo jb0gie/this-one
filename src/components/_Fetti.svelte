@@ -1,10 +1,10 @@
-<script lang="ts">
+<script>
 	import confetti from 'canvas-confetti';
 	let clicked = 0;
 	let fettiBtn;
 	function clickFetti() {
 		console.log('you did it!!!!!');
-		console.log({clicked});
+		console.log({ clicked });
 		clicked++;
 		var count = 200;
 		var defaults = {

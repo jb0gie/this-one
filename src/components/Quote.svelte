@@ -1,12 +1,14 @@
 <script>
 	let randmQuote;
 	let randmAuthor;
-	fetch('https://api.quotable.io/random').then((resp) => resp.json()).then((data) => {
-		randmQuote = data.content;
-		randmAuthor = data.author;
-		console.log(randmQuote);
-		console.log(randmAuthor);
-	});
+	fetch('https://api.quotable.io/random')
+		.then((resp) => resp.json())
+		.then((data) => {
+			randmQuote = data.content;
+			randmAuthor = data.author;
+			console.log(randmQuote);
+			console.log(randmAuthor);
+		});
 </script>
 
 <div
