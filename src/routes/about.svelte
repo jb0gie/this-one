@@ -1,6 +1,4 @@
 <script>
-	import { text } from 'svelte/internal';
-
 	console.log('U GON LEARNT 2DAY❗❗❗❗');
 </script>
 

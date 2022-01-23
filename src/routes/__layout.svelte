@@ -1,12 +1,11 @@
 <script>
 	import '../app.css';
-	import Nav from '../components/_Nav.svelte';
+	// import Nav from '../components/_Nav.svelte';
 	import Fetti from '../components/_Fetti.svelte';
-
 </script>
 
 <div class="p-auto max-w-2xl mx-auto">
-	<Nav />
+	<!-- <Nav /> -->
 	<Fetti />
 	<br />
 	<slot />
